@@ -67,9 +67,12 @@ a:hover, a:focus {
 	color:black;
 }
 .btn-default:hover{
-	color: black;
+	color: white;
     background-color: darkcyan;
 }
 .form-control {
 	border:2px solid black;
+}
+.site-navigation-inner.col-sm-12 {
+	padding : 0px 0px ;
 }
