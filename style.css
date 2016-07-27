@@ -11,3 +11,65 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
+.navbar-default  {
+    background: #00796B;
+    color:black;
+    border-color:#00796B;
+}
+.navbar-header{
+	padding: 0px;
+}
+   
+}
+.navbar-form {
+	background: #00796B;
+	color:black;
+	border-color:#00796B;
+}
+a{
+color:black;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background: transparent;
+	color: black;
+}
+.navbar-default .navbar-nav>li>a {
+	color:black;
+}
+.navbar-default .navbar-brand {
+	color:black;
+}
+.lead {
+	color:#B2DFDB;
+}
+
+	
+a:hover, a:focus {
+    color:black;
+    text-decoration: underline;
+	}
+.site-header{
+	background-color:#009688 ;
+	border-color: #009688;
+}
+.site-navigation {
+	background:#009688 ;
+    color: black;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color:#00796B;
+}
+.col-md-4{
+	padding-top: 50px;
+}
+.btn-default {
+	background-color: darkcyan;
+	color:black;
+}
+.btn-default:hover{
+	color: black;
+    background-color: darkcyan;
+}
+.form-control {
+	border:2px solid black;
+}
