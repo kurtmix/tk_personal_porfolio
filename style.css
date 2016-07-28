@@ -15,7 +15,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-
+/* Navbar */
 .navbar-default  {
     background: #00796B;
     color:black;
@@ -51,11 +51,17 @@
 	border-radius: 0px;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color:#00796B;
+    border-radius: 0px;
+}
 
+/* Ending of Navbar Edtions */
+
+/* Header and Link edits */
 .lead {
 	color:#B2DFDB;
 }
-
 
 a{
 color:black;
@@ -74,13 +80,21 @@ a:hover, a:focus {
 	background:#009688 ;
     color: black;
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color:#00796B;
-    border-radius: 0px;
+
+.site-navigation-inner.col-sm-12 {
+	padding : 0px 0px ;
 }
+/* */
 .col-md-4{
 	padding-top: 50px;
 }
+
+.form-control {
+	border:2px solid black;
+}
+
+/*Button */
+
 .btn-default {
 	background-color: darkcyan;
 	color:black;
@@ -89,20 +103,20 @@ a:hover, a:focus {
 	color: white;
     background-color: darkcyan;
 }
-.form-control {
-	border:2px solid black;
-}
-.site-navigation-inner.col-sm-12 {
-	padding : 0px 0px ;
-}
 
 button, html input[type="button"], input[type="reset"], input[type="submit"]{
 	background-color: darkcyan;
 }
 
+
+
 span.wpcf7-not-valid-tip {
 	color: darkcyan;	
 }
+/*button form ending*/
+
+
+
 /* Jumbotron editions */
 .container {
 	width: 745px;
