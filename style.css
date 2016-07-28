@@ -95,6 +95,7 @@ a:hover, a:focus {
 .site-navigation-inner.col-sm-12 {
 	padding : 0px 0px ;
 }
+
 button, html input[type="button"], input[type="reset"], input[type="submit"]{
 	background-color: darkcyan;
 }
@@ -102,6 +103,13 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 span.wpcf7-not-valid-tip {
 	color: darkcyan;	
 }
+/* Jumbotron editions */
+.container {
+	width: 745px;
+}
+/* End of Jumbotron editions */
+
+/* Fonts */
 h1 h2 h3 h4 h5 h6 {
 
    font-family: 'Playfair Display',serif;
@@ -110,3 +118,4 @@ h1 h2 h3 h4 h5 h6 {
 body{
    font-family: 'Open Sans',serif;
 }
+/* End of Fonts */
