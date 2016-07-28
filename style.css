@@ -11,43 +11,61 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+*/
 .navbar-default  {
     background: #00796B;
     color:black;
     border-color:#00796B;
+    border-radius: 0px;
 }
 .navbar-header{
 	padding: 0px;
+	border-radius: 0px;
 }
-   
+ .navbar {
+    border-radius: 0px;
 }
+
 .navbar-form {
 	background: #00796B;
 	color:black;
 	border-color:#00796B;
+	border-radius: 0px;
 }
-a{
-color:black;
-}
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 	background: transparent;
 	color: black;
+	border-radius: 0px;
 }
 .navbar-default .navbar-nav>li>a {
 	color:black;
+	border-radius: 0px;
 }
 .navbar-default .navbar-brand {
 	color:black;
+	border-radius: 0px;
 }
+
+
 .lead {
 	color:#B2DFDB;
 }
 
+
+a{
+color:black;
+}
 	
 a:hover, a:focus {
     color:black;
     text-decoration: underline;
 	}
+
 .site-header{
 	background-color:#009688 ;
 	border-color: #009688;
@@ -58,6 +76,7 @@ a:hover, a:focus {
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color:#00796B;
+    border-radius: 0px;
 }
 .col-md-4{
 	padding-top: 50px;
