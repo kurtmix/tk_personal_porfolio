@@ -12,10 +12,10 @@
  Text Domain:  twenty-fifteen-child
 */
 
-/*
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-*/
+
 .navbar-default  {
     background: #00796B;
     color:black;
@@ -94,4 +94,13 @@ a:hover, a:focus {
 }
 .site-navigation-inner.col-sm-12 {
 	padding : 0px 0px ;
+}
+
+h1 h2 h3 h4 h5 h6 {
+
+   font-family: 'Playfair Display',serif;
+}
+
+body{
+   font-family: 'Open Sans',serif;
 }
