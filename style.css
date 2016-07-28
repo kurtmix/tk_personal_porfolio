@@ -95,7 +95,13 @@ a:hover, a:focus {
 .site-navigation-inner.col-sm-12 {
 	padding : 0px 0px ;
 }
+button, html input[type="button"], input[type="reset"], input[type="submit"]{
+	background-color: darkcyan;
+}
 
+span.wpcf7-not-valid-tip {
+	color: darkcyan;	
+}
 h1 h2 h3 h4 h5 h6 {
 
    font-family: 'Playfair Display',serif;
