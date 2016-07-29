@@ -87,7 +87,7 @@ a:hover, a:focus {
     position: fixed;
     left: 0;
     top: 0;
-    
+    width: 100%;
 }
 /* Padding the */
 .col-md-4{
@@ -133,7 +133,11 @@ span.wpcf7-not-valid-tip {
 
 
 /* Jumbotron editions */
+.jumbotron {
+	background-color: darkcyan; 	
+}
 .container {
+
 	width: 745px;
 }
 /* End of Jumbotron editions */
@@ -146,5 +150,8 @@ h1 h2 h3 h4 h5 h6 {
 
 body{
    font-family: 'Open Sans',serif;
+}
+p {
+font-family: 'Open Sans',serif;
 }
 /* End of Fonts */
