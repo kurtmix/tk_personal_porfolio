@@ -54,6 +54,7 @@
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color:#00796B;
     border-radius: 0px;
+
 }
 
 /* Ending of Navbar Edtions */
@@ -80,18 +81,32 @@ a:hover, a:focus {
 	background:#009688 ;
     color: black;
 }
-
+ 
 .site-navigation-inner.col-sm-12 {
-	padding : 0px 0px ;
+    padding: 0px 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    
 }
-/* */
+/* Padding the */
 .col-md-4{
 	padding-top: 50px;
 }
+/*   The Header so the nav doesn't block it  */
+.col-sm-12 {
+    
+    padding-top: 30px;
+}
+/**/
 
+
+/**/
 .form-control {
 	border:2px solid black;
 }
+/**/
+
 
 /*Button */
 
