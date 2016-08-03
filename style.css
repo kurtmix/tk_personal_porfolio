@@ -1,5 +1,5 @@
 /*
- Theme Name:   tk Child theme
+ Theme Name:   Kurt's Child theme
  Theme URI:    http://example.com/twenty-fifteen-child/
  Description:  Profile Theme
  Author:       John Doe
@@ -38,7 +38,7 @@
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-	background: black;
+	background: transparent;
 	color: black;
 	border-radius: 0px;
 }
@@ -156,4 +156,9 @@ p {
 font-family: 'Open Sans',serif;
 }
 /* End of Fonts */
-
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid white;
+}
