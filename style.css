@@ -165,5 +165,6 @@ blockquote {
 #underborder{
 	border-style: hidden;
     border-bottom: solid #B2DFDB;
+  	text-decoration:none;
 }
-}
+
